@@ -1,0 +1,52 @@
+@font-face {
+	font-family: "droid serif";
+	src: url("assets/DroidSerif-Regular.ttf");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "droid serif";
+	src: url("assets/DroidSerif-Bold.ttf");
+	font-weight: bold;
+}
+
+body {
+	width: 1024px;
+	margin: 0 auto;   
+	font-family: "droid serif";
+
+ }
+
+ header {
+	position: relative;
+ }
+
+ h1 {
+	text-align: left;
+	margin-left: 176px;
+ }
+ 
+.photo {
+	width: 150px;
+	height: 200px;
+	position: absolute;
+  margin: -75px 734px;
+ }
+
+ main {
+	margin-top: 120px;	
+	background-image: url("assets/background.jpg");
+	background-size: 60%;
+	background-repeat: no-repeat;
+	margin-bottom: 0;	 
+ }
+ 
+ footer {
+	background-color: aqua;
+  text-align: center;
+	margin-top: -16px;
+ }
+
+ footer p {
+	padding: 15px 0;
+ }
