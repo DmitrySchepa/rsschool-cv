@@ -14,39 +14,53 @@ body {
 	width: 1024px;
 	margin: 0 auto;   
 	font-family: "droid serif";
-
+	text-align: center;
  }
 
  header {
 	position: relative;
+	background-color: palegoldenrod;
  }
 
  h1 {
 	text-align: left;
-	margin-left: 176px;
+	margin-left: 348px;
+	padding-bottom: 12px;
  }
  
 .photo {
 	width: 150px;
 	height: 200px;
 	position: absolute;
-  margin: -75px 734px;
+  margin: -72px 362px;
  }
 
  main {
-	margin-top: 120px;	
-	background-image: url("assets/background.jpg");
-	background-size: 60%;
-	background-repeat: no-repeat;
-	margin-bottom: 0;	 
+	margin-top: -22px;	
+	background-color: lemonchiffon;
  }
+
+ a {
+	 padding-left: 15px;
+	 text-decoration: none;
+	 color: black;
+ }
+
+ a:hover {
+   color: blue; 
+ }
+
+ ul {
+	 list-style-type: none;
+   padding: 0px;		
+	}
  
  footer {
-	background-color: aqua;
-  text-align: center;
-	margin-top: -16px;
+	 background-color: palegoldenrod;
+   text-align: center;
+ 	 margin-top: -16px;
  }
 
  footer p {
-	padding: 15px 0;
+	 padding: 15px 0;
  }
